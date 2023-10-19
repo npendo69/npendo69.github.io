@@ -15,7 +15,7 @@ p {
 }
 
 li {
-b
+list-style-type: none;
 }
 
 h2 {
