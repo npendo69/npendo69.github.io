@@ -6,20 +6,31 @@
       <title>Noah's Recipe Book</title>
       <link rel="stylesheet" href="style.css">
       <link rel="icon" type="image/chef-hat" href="images/chef.png">
+      <script src="script.js"></script>
    </head>
    <div id="page-container">
       <div id="content-wrap">
+      <div id="title">
          <h1>Noah's Recipe Book</h1>
-         <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hlZnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="chef" width="500px" id="main-image">
-         <ul>
-            <li><a href="recipes/greenbeans.html">Roasted Greenbeans</a></li>
-            <li><a href="recipes/chicken-picata.html">Chicken Picata</a></li>
-            <li><a href="recipes/tomato-soup.html">Tomato Soup</a></li>
-         </ul>
       </div>
+         
+         <div id="container">
+            <input id="searchbar" onkeyup="search_recipe()" type="text"
+        name="search" placeholder="Search recipes.."> 
+      
+    <ul id="list"> 
+      <li class="recipe"><a href="recipes/greenbeans.html">Roasted Greenbeans</a></li>
+      <li class="recipe"><a href="recipes/chicken-picata.html">Chicken Picata</a></li>
+      <li class="recipe"><a href="recipes/tomato-soup.html">Tomato Soup</a></li> 
+    </ul> 
+      
+    <script src="./script.js"></script> 
+      
+            <div id="spacer"></div>
       <footer id="footer">
          <p>Created by Noah Pendo&copy; 2023</p>
       </footer>
+   </div>
    </div>
    </body>
 </html>
